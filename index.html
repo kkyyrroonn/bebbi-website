@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>MADRL</title>
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">Bebbi.</a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#story">Our Story</a>
+      <a href="#pictures">Pictures</a>
+      <a href="#contact">Message</a>
+
+      <span class="active-nav"></span>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hello, my <span>Bebbi</span></h1>
+      <div class="text-animate">
+        <h3>Maria Angelica Del Rosario Luna</h3>
+      </div>
+      <p>It's finally your birthday my love, Happy 21st Birthday!! Di ko alam kung maibibigay ko ba sayo to sa tamang oras pero kung hindi, sinubukan ko naman tapusin at ihabol HAHAHAH Ayun lang sana ma-enjoy or ma-appriciate mo regalo ko. Eto nalang muna habang LDR pa tayo :< </p>
+
+      <div class="btn-box">
+        <a href="#" class="btn" onclick="love()">I love you</a>
+        <a href="#" class="btn" onclick="miss()">I miss you</a>
+      </div>
+    </div>
+
+    <div class="home-sci">
+      <a href="#"><i class='bx bxl-facebook' ></i></a>
+      <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+      <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+    </div>
+
+    <div class="home-imgHover"></div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="heading">About <span>You</span></h2>
+
+    <div class="about-img">
+      <img src="images/IMG_1453.JPG" alt="">
+      <span class="circle-spin"></span>
+    </div>
+
+    <div class="about-content">
+      <h3>Angelica Luna</h3>
+      <p>The most beautiful girl for me, the kindest, and also the sweetest. I am most thankful for everything, even though we have our ups and downs thank you for staying by my side and being patient with me.</p>
+
+      <div class="btn-box btns">
+        <a href="#" class="btn">Not yet Working</a>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <h2 class="heading">About <span>Me</span></h2>
+
+    <div class="about-img">
+      <img src="images/Kyle.JPG" alt="">
+      <span class="circle-spin"></span>
+    </div>
+
+    <div class="about-content">
+      <h3>Kyle Javier</h3>
+      <p>The sweetest boy you'll ever be with. Hopefully your first and last boyfriend. He loves you so much, so please stop overthinking na. Sabi niya mag iingat ka raw parati habang nasa malayo siya. Paguwi niya siya na raw mag-aalaga sayo:></p>
+
+      <div class="btn-box btns">
+        <a href="#" class="btn">Not yet Working</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="story" id="story">
+    <div class="story-content">
+      <h1 class="heading">This is <span>Our Story</span></h1>
+      <div class="text-animate">
+        <h3>when We First Met</h3>
+      </div>
+      <p>We first met when we're both in 4th Grade. Sa kasamaang palad, magkaiba tayo ng section noon. Pero dahil habulin talaga ako noon pa, chinat mo ako sa peysbuk. Sabi mo crush mo ako, wala na akong proof kasi dinelete mo na old account mo:/</p>
+      <p>FYI hindi ako naawa sayo kaya naging crush din kita, I just find you cute din noon. Hindi ko lang napansin kasi nga magkaiba tayo ng section. The first Christmas party na binigyan mo ako ng regalo, kaso nawala ko na yun. It was a coin purse.</p>
+      <p>Alam ko hindi pa ako mahilig mag bigay ng regalo non kaya puro letters lang ata binibigay ko sayo. Sa susunod nalang ung iba, tapusin ko muna tong website mo:>
+      </p>
+
+      <div class="btn-box">
+        <a href="#" class="btn" onclick="agree()">Agree</a>
+        <a href="#" class="btn" onclick="notAgree()">Not Agree</a>
+      </div>
+    </div>
+
+    <div class="story-imgHover"></div>
+  </section>
+
+  <section class="pictures" id="pictures">
+    <div class="picture-content">
+      <h1 class="heading">Your <span>Pictures</span></h1>
+      <p>Hi, so since birthday mo pictures mo lang muna ilalagay ko rito. Since mahirap ilagay lahat ng pictures mo sa website, nilagay ko lahat sa drive. Here's the link: <a href="https://drive.google.com/drive/folders/1z_n5mYXBvVTFSXtIn9KRpkLQES_vUUMt?usp=drive_link">I love you</a> </p>
+
+      <div class="pic-container">
+        <div class="box">
+          <img src="images/IMG_1451.JPG">
+        </div>
+        <div class="box">
+          <img src="images/IMG_1454.JPG">
+        </div>
+        <div class="box">
+          <img src="images/IMG_1561.JPG">
+        </div>
+        <div class="box">
+          <img src="images/IMG_1453.JPG">
+        </div>
+        <div class="box">
+          <img src="images/IMG_1377.JPG">
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  
+  <section class="contact" id="contact">
+    <h2 class="heading">What can <span>you Say?</span></h2>
+
+    <form action="#" onsubmit="sendEmail()">
+      <div class="input-box">
+        <div class="input-field">
+          <input type="text" placeholder="Please Enter Your Name" required>
+          <span class="focus"></span>
+        </div>
+        <div class="input-field">
+          <input type="text" id="email" placeholder="Email Address" required>
+          <span class="focus"></span>
+        </div>
+      </div>
+
+      <div class="textarea-field">
+        <textarea name="" id="" cols="30" rows="10" id="message" placeholder="Not yet working, huhu I'm still trying to link this to my gmail. But you can still write something here though." required></textarea>
+        <span class="focus"></span>
+      </div>
+
+      <div class="btn-box btns">
+        <button type="submit" class="btn" onclick="messageSent()">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Kyron | All Rights Reserved</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
